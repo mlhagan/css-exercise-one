@@ -1,4 +1,5 @@
-body
+/*stylesheet basics*/
+body {
   font-size: 14px;
 }
 
@@ -8,29 +9,34 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*headers*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+h3 .example{
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
 }
-
-.element {
+/*div classes*/
+div {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
+
+div .feature {
+  background-color: blue;
+}
