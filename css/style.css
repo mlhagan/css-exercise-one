@@ -1,36 +1,35 @@
-body
-  font-size: 14px;
-}
-
+/*stylesheet*/
 nav {
-  background color: yellow;
+  background color: #F9F05C;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*headers*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
 }
 
 h3 {
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
 }
-
-.element {
-  background-color: green;
+/*green boxes*/
+div {
+  background-color: #007A32;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/*last three boxes*/
+div.feature {
+  background-color: #0D99AF;
+}
